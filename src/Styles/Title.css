@@ -1,0 +1,6 @@
+.title{
+    display: flex;
+    justify-content: center;
+    color: rgb(123, 125, 128);
+    margin-top: 20px;
+}
