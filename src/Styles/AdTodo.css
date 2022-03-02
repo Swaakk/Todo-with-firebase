@@ -1,0 +1,36 @@
+.input_container{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.input_container input{
+    border: 2px solid rgb(85, 189, 250);
+    height: 40px;
+    width: 320px;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(123, 125, 128);
+}
+
+.btn_container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn_container button{
+    width: 70px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(55, 121, 165);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_container button:hover{
+    background-color: rgb(18, 79, 119);
+    transition: .3s;
+}
